@@ -64,7 +64,7 @@ services:
       --providers.file.filename=/proxy_overrides.yaml --providers.file.watch=true
     ports:
       # The HTTP port
-      - "80:80"
+      - "88:80"
       # The Web UI (enabled by --api.insecure=true)
       - "8080:8080"
     volumes:
