@@ -102,7 +102,7 @@ services:
     environment:
       - ENVIRONMENT=development
     labels:
-      - traefik.enable=true
+      - traefik.enable=false
       - traefik.http.routers.frontend.rule=Host(`frontend.unstract.localhost`)
 
   platform-service:
