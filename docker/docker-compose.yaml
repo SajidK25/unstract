@@ -95,7 +95,7 @@ services:
     container_name: unstract-frontend
     restart: unless-stopped
     ports:
-      - "3001:3000"
+      - "3001:80"
     depends_on:
       - backend
       - reverse-proxy
